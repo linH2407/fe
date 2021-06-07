@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../css/demo.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+
+  <title>Match</title>
+</head>
+<body>
+<div class="container container-match">
+  <div class="player">
+    <h2>Player 1</h2>
+    <p>Point</p>
+    <input id="point" class="hide">
+    <p>Elo</p>
+    <p id="elo" class="hide"></p>
+  </div>
+  <div class="player">
+    <h2>Player 2</h2>
+    <p>Point</p>
+    <input id="point1" class="hide">
+    <p >Elo</p>
+    <p id="elo1" class="hide"></p>
+  </div>
+</div>
+<script src="../js/cnpm.js"></script>
+<div class="btn">
+  <button class="update" type="submit" onclick="tb()"><a href="./roundCNPM.html">Update</a></button>
+  <button type="reset" onclick="reset()">Reset</button>
+</div>
+<div class="icon">
+  <a href="./roundCNPM.html"><i class="fas fa-arrow-left"></i></a>
+  <a href=""><i class="fas fa-arrow-right" id="icon-right"></i></a>
+</div>
+<!--<script src="../js/cnpm.js"></script>-->
+</body>
+</html>
